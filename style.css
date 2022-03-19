@@ -151,6 +151,8 @@ body
     gap: 1rem;
     position: relative;
     margin: 1rem 0;
+    background: #eee;
+    border-radius: .5rem;
 }
 .header .shopping-cart .box img
 {
@@ -213,4 +215,53 @@ body
     background: var(--laranja);
     opacity: .8;
     margin: 1rem 0;
+}
+.header .login-form
+{
+    position: absolute;
+    top: 110%; right: -110%;
+    width: 30rem;
+    background: #fff;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+}
+.header .login-form.active
+{
+    right: 2rem;
+    transition: .4s linear  ;
+}
+.header .login-form h3
+{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--black);
+    text-transform: uppercase;
+}
+.header .login-form .box
+{
+    width: 100%;
+    margin: .7rem 0;
+    background: #eee;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+}
+.header .login-form p
+{
+    font-size: 1.4rem;
+    color: var(--ligth-color);
+    padding: .5rem 0;
+}
+.header .login-form p a
+{
+    color: var(--laranja);
+}
+.header .login-form .btn
+{
+    display: block;
+    width: 100%;
 }
