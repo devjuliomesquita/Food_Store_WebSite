@@ -7,21 +7,36 @@ let navBar = document.querySelector('.navbar');
 //TRAZER OS ITENS PARA FRENTE
 document.querySelector('#search-btn').onclick = () =>{
     searchForm.classList.toggle('active');
+    navBar.classList.remove('active');
+    loginForm.classList.remove('active');
+    shoppingCart.classList.remove('active');
 };
 
 document.querySelector('#shopping-btn').onclick = () =>{
     shoppingCart.classList.toggle('active');
+    navBar.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
 };
 
 document.querySelector('#login-btn').onclick = () => {
     loginForm.classList.toggle('active');
+    navBar.classList.remove('active');
+    searchForm.classList.remove('active');
+    shoppingCart.classList.remove('active');
 };
 
 document.querySelector('#menu-btn').onclick = () => {
     navBar.classList.toggle('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    shoppingCart.classList.remove('active');
 };
 
 //RETIRAR OS ITENS COM O SCROLL
 window.onscroll = () => {
     navBar.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    shoppingCart.classList.remove('active');
 }

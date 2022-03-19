@@ -310,4 +310,15 @@ body
         display: block;
         text-align: center;
     }
+    .header .search-form
+    {
+        width: 90%;
+    }
+}
+@media(max-width:490px)
+{
+    html
+    {
+        font-size: 50%;
+    }    
 }
