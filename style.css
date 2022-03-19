@@ -35,6 +35,10 @@ body
 {
     background: #fff;
 }
+section
+{
+    padding: 2rem 9%;
+}
 /* ESTILIZAÇÃO DO HEADER */
 .header
 {
@@ -201,6 +205,7 @@ body
     margin-top: 1rem;
     display: inline-block;
     padding: .8rem 3rem;
+    margin: 1rem 0;
     font-size: 1.7rem;
     border: .2rem solid var(--black);
     border-radius: .5rem;
@@ -214,7 +219,7 @@ body
     color: #fff;
     background: var(--laranja);
     opacity: .8;
-    margin: 1rem 0;
+    letter-spacing: .1rem;
 }
 .header .login-form
 {
@@ -265,7 +270,38 @@ body
     display: block;
     width: 100%;
 }
-
+.home
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./image/banner-bg.webp);
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+}
+.home .content
+{
+    text-align: center;
+    width: 60rem;
+}
+.home .content h3
+{
+    font-size: 3rem;
+    color: var(--black);
+}
+.home .content h3 span
+{
+    color: var(--laranja);
+}
+.home .content p
+{
+    font-size: 1.7rem;
+    color: var(--ligth-color);
+    padding: 1rem 0;
+    line-height: 1.8;
+}
 
 
 
