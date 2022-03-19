@@ -265,3 +265,49 @@ body
     display: block;
     width: 100%;
 }
+
+
+
+
+
+
+/* INICIO DAS MEDIA QUERY */
+@media(max-width:1060px)
+{
+    html
+    {
+        font-size: 55%;
+    }
+    .header
+    {
+        padding: 2rem;
+    }
+}
+@media(max-width:790px)
+{
+    #menu-btn
+    {
+        display: inline-block;
+    }
+    .header .navbar
+    {
+        position: absolute;
+        top: 110%; right: -110%;
+        width: 25rem;
+        background: #eee;
+        border-radius: .5rem;
+        box-shadow: var(--box-shadow);
+    }
+    .header .navbar.active
+    {
+        right: 2rem;
+        transition: .4s linear;
+    }
+    .header .navbar a
+    {
+        font-size: 2rem;
+        margin: 2rem 2.5rem;
+        display: block;
+        text-align: center;
+    }
+}
