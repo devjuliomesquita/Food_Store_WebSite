@@ -40,3 +40,19 @@ window.onscroll = () => {
     loginForm.classList.remove('active');
     shoppingCart.classList.remove('active');
 }
+//script do carrossel
+var swiper = new Swiper(".produtos-slider", {
+    loop:true,
+    spaceBetween: 20,
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+            },
+        768: {
+            slidesPerView: 2,
+            },
+        1020: {
+            slidesPerView: 3,
+            },
+        },
+    });
