@@ -375,10 +375,12 @@ section
     outline-offset: -1rem;
     box-shadow: var(--box-shadow);
     padding: 3rem 2rem;
+    transition: .2s linear;
+    
 }
 .produtos .produtos-slider .box:hover
 {
-    outline-offset: 0;
+    outline-offset: 0rem;
     outline: var(--outline-hover);
 }
 .produtos .produtos-slider .box img
