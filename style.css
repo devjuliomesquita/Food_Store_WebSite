@@ -442,6 +442,53 @@ section
     line-height: 1.5;
     color: var(--ligth-color);
     padding: 1rem 0;
+}
+.review .review-slider
+{
+    padding: 1rem;
+}
+.review .review-slider .box
+{
+    background: #fff;
+    border-radius: .5rem;
+    text-align: center;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    box-shadow: var(--box-shadow);
+    padding: 3rem 2rem;
+    transition: .2s linear;
+    
+}
+.review .review-slider .box:hover
+{
+    outline-offset: 0rem;
+    outline: var(--outline-hover);
+}
+.review .review-slider .box img
+{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+.review .review-slider .box p
+{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: var(--ligth-color);
+    padding: 1rem 0;
+}
+.review .review-slider .box h3
+{
+    font-size: 2.5rem;
+    line-height: 1.8;
+    color: var(--black);
+}
+.review .review-slider .box .stars i
+{
+    font-size: 1.7rem;
+    color: var(--laranja);
+    padding: .5rem 0;
+}
 
 /* INICIO DAS MEDIA QUERY */
 @media(max-width:1060px)
