@@ -489,6 +489,75 @@ section
     color: var(--laranja);
     padding: .5rem 0;
 }
+.blog .box-conteiner
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(26rem,1fr));
+    gap: 1.5rem;
+}
+.blog .box-conteiner .box
+{   
+    overflow: hidden;
+    border-radius: .5rem;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    outline-offset: 1rem;
+    text-align: center;
+}
+.blog .box-conteiner .box:hover
+{
+    outline-offset: 0rem;
+    outline: var(--outline-hover);
+}
+.blog .box-conteiner .box img
+{
+    height: 28rem;
+    object-fit: cover;
+}
+.blog .box-conteiner .box .content
+{
+    padding: 2rem;
+}
+.blog .box-conteiner .box .content .icons
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    border-bottom: var(--border);
+}
+.blog .box-conteiner .box .content .icons a
+{
+    font-size: 1.5rem;
+    color: var(--ligth-color);
+}
+.blog .box-conteiner .box .content .icons a:hover
+{
+    color: var(--black);
+}
+.blog .box-conteiner .box .content .icons a i
+{
+    color: var(--laranja);
+    padding-right: .5rem;
+}
+.blog .box-conteiner .box .content h3
+{
+    font-size: 2.5rem;
+    line-height: 1.8;
+    color: var(--black);
+    
+}
+.blog .box-conteiner .box .content p
+{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: var(--ligth-color);
+    padding: 1rem 0;
+    
+}
+
+
 
 /* INICIO DAS MEDIA QUERY */
 @media(max-width:1060px)
