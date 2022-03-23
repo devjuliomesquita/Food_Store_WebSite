@@ -407,7 +407,7 @@ section
 .categorias .box-conteiner
 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(26rem,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
     gap: 1.5rem;
 }
 .categorias .box-conteiner .box
@@ -554,9 +554,112 @@ section
     line-height: 1.5;
     color: var(--ligth-color);
     padding: 1rem 0;
-    
 }
+.footter
+{
+    background: #fff;
+}
+.footter .box-conteiner
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+.footter .box-conteiner .box
+{
+    overflow: hidden;
+    background: #fff;
+}
+.footter .box-conteiner .box h3
+{
+    color: var(--black);
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+.footter .box-conteiner .box h3 i
+{
+    color: var(--laranja);
+}
+.footter .box-conteiner .box .links
+{   
+    display: block;
+    color: var(--ligth-color);
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+.footter .box-conteiner .box p
+{   
+    line-height: 1.8;
+    color: var(--ligth-color);
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+.footter .box-conteiner .box .links i
+{
+    color: var(--laranja);
+    padding-right: .5rem;
+}
+.footter .box-conteiner .box .links:hover i
+{
+    padding-right: 2rem;
+}
+.footter .box-conteiner .box .share a
+{
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    color: var(--black);
+    font-size: 2rem;
+    margin-left: .2rem;
+    border-radius: .5rem;
+    background: #eee;
+    text-align: center;
+}
+.footter .box-conteiner .box .share a:hover
+{
+    color: #fff;
+    background: var(--laranja);
+}
+.footter .box-conteiner .box .email
+{
+    width: 100%;
+    margin: .7rem 0;
+    padding: 1rem;
+    color: var(--black);
+    text-transform: none;
+    background: #eee;
+    border-radius: .5rem;
+    font-size: 1.6rem;
+}
+.footter .box-conteiner .box img
+{
+    margin: 2rem 0;
+    height: 3rem;
+    text-align: center;
+}
+.footter .box-conteiner .box .btn
+{
+    width: 100%;
+}
+.footter .creditos
+{
+    text-align: center;
+    text-transform: none;
+    background-color: #fff;
+    padding: 1rem;
+    padding-top: 2rem;
+    
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--black);
+    border-top: var(--border);
 
+}
+.footter .creditos span
+{
+    color: var(--laranja);
+    cursor: pointer;
+}
 
 
 /* INICIO DAS MEDIA QUERY */
@@ -582,7 +685,7 @@ section
         position: absolute;
         top: 110%; right: -110%;
         width: 25rem;
-        background: #eee;
+        background: #fff;
         border-radius: .5rem;
         box-shadow: var(--box-shadow);
     }
