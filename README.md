@@ -17,9 +17,6 @@ A Aplicação consiste em um site estático de uma loja online de alimentos seme
 
 ![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
 
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
-
 # Tecnologias utilizadas
 ## Front end
 - HTML
@@ -32,9 +29,10 @@ A Aplicação consiste em um site estático de uma loja online de alimentos seme
 
 ```bash
 # clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+git clone https://github.com/devjuliomesquita/Food_Store_WebSite.git
 
 # executar o projeto
+index.html
 
 ```
 
