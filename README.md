@@ -1,9 +1,9 @@
 # Food Store WebSite
-[![NPM](https://img.shields.io/npm/l/react)]([https://github.com/devjuliomesquita/Food_Store_WebSite/blob/main/LICENSE]) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/devjuliomesquita/Food_Store_WebSite/blob/main/LICENSE) 
 
 # Sobre o projeto
 
-[https://devjuliomesquita.github.io/Food_Store_WebSite/]
+https://devjuliomesquita.github.io/Food_Store_WebSite/
 
 Food Store WebSite é uma aplicação web e mobile Front-End.
 
