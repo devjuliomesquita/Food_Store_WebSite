@@ -13,7 +13,7 @@ A Aplicação consiste em um site estático de uma loja online de alimentos seme
 ![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
 
 ## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
+![Web 1](https://github.com/devjuliomesquita/Food_Store_WebSite/blob/main/image/devjuliomesquita.github.io_Food_Store_WebSite_(Pixel%205)%20(1).png)
 
 ![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
 
